@@ -72,12 +72,12 @@ button {
     transform: scale(1.05);
 }
 
-.guestButtons {
+.awayButtons {
     background-color: #795548;
     color: #fff;
 }
 
-.guestButtons:hover {
+.awayButtons:hover {
     background-color: #6d4c41;
     transform: scale(1.05);
 }

@@ -1,9 +1,9 @@
 const buttons = document.getElementsByTagName(`button`)
 const homeScoreParagraph = document.getElementById(`homeScore`)
-const guestScoreParagraph = document.getElementById(`guestScore`)
+const awayScoreParagraph = document.getElementById(`awayScore`)
 
 let homeScore = 0
-let guestScore = 0
+let awayScore = 0
 
 const parsePoints = event => {
     let value = event.target.textContent
@@ -21,9 +21,9 @@ const addScore = event => {
         homeScoreParagraph.textContent = homeScore
     }
     
-    if (event.target.classList.contains(`guestButtons`)) {
-        guestScore += points
-        guestScoreParagraph.textContent = guestScore
+    if (event.target.classList.contains(`awayButtons`)) {
+        awayScore += points
+        awayScoreParagraph.textContent = awayScore
     }
 }
 
