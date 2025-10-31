@@ -16,7 +16,8 @@ body {
     justify-content: center;
     gap: 2rem;
     padding: 2rem;
-    min-height: 100vh;
+    min-height: 100svh;
+    touch-action: manipulation;
 }
 
 .container > div {
